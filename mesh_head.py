@@ -277,3 +277,6 @@ class MeshRCNNGraphConvSubdHead(nn.Module):
 def build_mesh_head(cfg, input_shape):
     name = cfg.MODEL.ROI_MESH_HEAD.NAME
     return ROI_MESH_HEAD_REGISTRY.get(name)(cfg, input_shape)
+
+
+##1222
