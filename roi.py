@@ -52,3 +52,6 @@ y = roi_pooling(input_const, rois_const, pool_height=2, pool_width=2)
 with tf.Session('') as sess:
     y_output = sess.run(y, feed_dict={input_featuremap: input_value, rois: rois_value})
     print(y_output)
+
+
+#122
